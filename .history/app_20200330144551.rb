@@ -9,6 +9,6 @@ class App < Sinatra::Base
     if req.path=="/"
       resp.write "Hello, World!"
     end
-    resp.finish
   end
+  resp.finish
 end

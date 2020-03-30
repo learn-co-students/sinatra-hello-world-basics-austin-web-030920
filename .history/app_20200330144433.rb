@@ -7,8 +7,7 @@ class App < Sinatra::Base
     req = Rack::Request.new(env)
  
     if req.path=="/"
-      resp.write "Hello, World!"
+      resp.write "Hello, World!l"
     end
-    resp.finish
   end
 end
