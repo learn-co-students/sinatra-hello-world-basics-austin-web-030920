@@ -8,7 +8,7 @@ class App < Sinatra::Base
  
     if req.path=="/"
       resp.write "Hello, World!"
+      resp.status = 200
     end
-    resp.finish
   end
 end
